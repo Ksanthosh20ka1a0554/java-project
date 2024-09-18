@@ -29,18 +29,6 @@
         </dependency>
     </dependencies>
     
-    <distributionManagement>
-        <snapshotRepository>
-            <id>nexusRepo</id>
-            <url>http://13.233.230.166:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-        
-        <repository>
-            <id>nexusRepo</id>
-            <url>http://13.233.230.166:8081/repository/maven-releases/</url>
-        </repository>
-    </distributionManagement>
-    
     <pluginRepositories>
         <pluginRepository>
             <id>mavenCentral</id>
@@ -53,12 +41,8 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
-                </configuration>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version>
             </plugin>
         </plugins>
     </build>
