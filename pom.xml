@@ -24,7 +24,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.13.2</version> <!-- Updated version -->
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -43,9 +43,9 @@
     
     <pluginRepositories>
         <pluginRepository>
-            <id>maven1</id>
-            <name>Maven.org</name>
-            <url>http://repo1.maven.org/maven2</url>
+            <id>mavenCentral</id>
+            <name>Maven Central</name>
+            <url>https://repo1.maven.org/maven2</url> <!-- Updated URL -->
         </pluginRepository>
     </pluginRepositories>
     
